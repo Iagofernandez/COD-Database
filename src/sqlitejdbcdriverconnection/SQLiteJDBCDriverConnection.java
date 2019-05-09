@@ -14,7 +14,7 @@ public class SQLiteJDBCDriverConnection {
         Connection conn = null;
         try {
             // db parameters
-            String url = "jdbc:sqlite:/chinook.db";
+            String url = "jdbc:sqlite:chinook.db";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
             
